@@ -3,8 +3,8 @@
 class string
 {
 private:
-	char* str;
-	int size;
+	char* str=nullptr;
+	int size=0;
 
 	void add_str(const char* str)
 	{
@@ -16,8 +16,8 @@ private:
 public:
 	string()
 	{
-		str = nullptr;
-		size = 0;
+		//str = nullptr;
+		//size = 0;
 	}
 
 	string(const char* str)
